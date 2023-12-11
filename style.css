@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800&family=Teko:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1F1517;
+    color: #ffffff;
+}
+
+html {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: Teko;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    color: #fff2e780;
+}
+
+.github {
+    color: #fff2e7;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal {
+    background: #181012;
+}
+
+.hero {
+
+
+    max-width: 1120px;
+    height: 40vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6rem;
+    align-items: center;
+
+    padding: 0rem 2rem;
+    margin: auto;
+
+    overflow: clip;
+}
+
+.hero-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.destaque {
+    font-family: Epilogue;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.marrom {
+    color: #A45A49;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 56px;
+    font-weight: 800;
+}
+
+hr {
+    width: 240px;
+    height: 2px;
+    gap: 18px;
+}
+
+h2 {
+    color: #c7bab3;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+
+.hero-imagens-container {
+    max-width: 40%;
+    column-count: 4;
+    column-gap: 16px;
+    margin: -16px;
+}
+
+.hero-imagens-container>figure>img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.botao-container {
+    width: 100%;
+    gap: 10px;
+    max-width: 1120px;
+    margin: auto;
+    transform: translate("0, -50%");
+}
+
+button {
+    padding: 16px;
+    border: none;
+    border-radius: 0.5rem;
+
+    background: #A45A49;
+}
+
+.receitas {
+    display: flex;
+    flex-direction: column;
+    max-width: 1120px;
+    gap: 32px;
+    padding: 3rem;
+    margin: auto;
+}
+
+.receitas-cabealho {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.receitas-title {
+    color: #FFF2E7;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFF2E7;
+}
+
+.receitas-subtitle {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.receitas-card-container {
+    padding: 0rem 10rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.receitas-card {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border-radius: 0.5rem;
+    min-width: 480px;
+    max-width: 560px;
+    align-items: flex-start;
+    gap: 24px;
+    background: #241A1C;
+    flex: 1 0 0;
+}
+
+.receitas-card-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-self: stretch;
+}
+
+.amarelo {
+    color: #E7A80E;
+}
+
+.card-title {
+    color: #FFF2E7;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-avaliacao {
+    color: #756A67;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card-comments {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-user {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.card-avatar {
+    width: 24px;
+    height: 24px;
+
+    border-radius: 999px;
+}
+
+.card-nickname {
+    color: #C7BAB3;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.footer {
+    display: flex;
+    padding: 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    background: #23181A;
+
+}
+
+.footer-copy {
+    color: #FFF2E7;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer-autor {
+    color: rgba(255, 242, 231, 0.50);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+}
